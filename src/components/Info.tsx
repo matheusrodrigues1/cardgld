@@ -3,6 +3,7 @@ import React from "react";
 import Goldcard from "../assets/goldcard.jpeg";
 import Seguration from "../assets/info1.png";
 import Grafico from "../assets/info2.png";
+import Link from "next/link";
 
 const Info = () => {
   return (
@@ -28,9 +29,11 @@ const Info = () => {
         className="w-[24rem] rounded-3xl h-[33rem] mt-8"
         alt="img"
       />
-      <button className="px-6 py-5 mt-10 border text-white font-bold text-xl border-green-400 bg-green-500 shadow-lg shadow-black rounded-md">
-        ADQUIRA O SEU AGORA!
-      </button>
+      <Link href="/hello">
+        <button className="px-6 py-5 mt-10 border text-white font-bold text-xl border-green-400 bg-green-500 shadow-lg shadow-black rounded-md">
+          ADQUIRA O SEU AGORA!
+        </button>
+      </Link>
       <Image
         src={Seguration}
         className="w-[22rem] rounded-3xl mt-10"

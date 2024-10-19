@@ -1,9 +1,10 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Brasil from "../assets/brasil-1.png";
 import Mensalidade from "../assets/mensalidade-1.png";
 import Ok from "../assets/OK-1.png";
 import Seguro from "../assets/seguro2-1.png";
+import Link from "next/link";
 
 const End = () => {
   return (
@@ -21,9 +22,11 @@ const End = () => {
       </span>
       <Image src={Ok} className="w-[20rem] h-[7rem] mt-5" alt="img" />
       <span className="text-zinc-500 text-lg font-bold mt-5">FALE CONOSCO</span>
-      <button className="bg-green-600 px-7 text-white font-bold py-3 mt-10 rounded-sm">
-        Atendimento pelo whatsApp
-      </button>
+      <Link href="/hello">
+        <button className="bg-green-600 px-7 text-white font-bold py-3 mt-10 rounded-sm">
+          Atendimento pelo whatsApp
+        </button>
+      </Link>
       <span className="text-zinc-500 text-lg font-bold mt-10">SITE SEGURO</span>
       <Image src={Seguro} className="w-[20rem] mt-5" alt="img" />
       <div className="my-4 border-t border-zinc-600 w-[17rem] mt-8" />
