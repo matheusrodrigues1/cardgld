@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="flex flex-col w-full h-full bg-zinc-900 items-center justify-center">
       <Image
         src={Goldcard}
-        className="mt-[2.5rem] w-[20rem] h-[27rem] "
+        className="mt-[2.5rem] w-[20rem] h-[27rem] rounded-md"
         alt="img"
       />
       <span className="font-extrabold text-white text-3xl mt-10">
