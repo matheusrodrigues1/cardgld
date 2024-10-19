@@ -6,7 +6,7 @@ import Grafico from "../assets/info2.png";
 
 const Info = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center">
+    <div className="w-full h-full flex flex-col items-center">
       <h1 className="text-center font-extrabold mt-8 text-2xl text-zinc-600">
         MUITO + RÁPIDO E POTENTE
       </h1>
@@ -33,7 +33,7 @@ const Info = () => {
       </button>
       <Image
         src={Seguration}
-        className="w-[22rem] rounded-3xl h-[31rem] mt-10"
+        className="w-[22rem] rounded-3xl mt-10"
         alt="img"
       />
       <span className="text-2xl text-orange-500 text-center font-bold mt-14">
@@ -45,10 +45,7 @@ const Info = () => {
         por ano comparado a qualquer TV por Assinatura.
       </p>
 
-      <Image
-        src={Grafico}
-        className="w-[24rem] rounded-3xl h-[33rem] mt-10"
-        alt="img"/>
+      <Image src={Grafico} className="w-[24rem] rounded-3xl mt-10" alt="img" />
     </div>
   );
 };

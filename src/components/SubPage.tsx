@@ -8,10 +8,10 @@ import Sub04 from "../assets/sub04.png";
 const SubPage = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full bg-zinc-900">
-      <h1 className="font-extrabold text-center text-3xl pr-9 pl-9 text-white mb-20">
+      <h1 className="font-extrabold text-center text-3xl pr-9 pl-9 text-white mb-20 mt-10">
         A GOLDCARD É PARA VOCE QUE:
       </h1>
-      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black">
         <Image
           src={Sub01}
           className="h-[12rem] w-[20rem] rounded-lg"
@@ -28,7 +28,7 @@ const SubPage = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black mt-5">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5">
         <Image
           src={Sub02}
           className="h-[12rem] w-[20rem] rounded-lg"
@@ -45,7 +45,7 @@ const SubPage = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black mt-5">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5">
         <Image
           src={Sub03}
           className="h-[12rem] w-[20rem] rounded-lg"
@@ -62,7 +62,7 @@ const SubPage = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black mt-5 mb-5">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 mb-5">
         <Image
           src={Sub04}
           className="h-[12rem] w-[20rem] rounded-lg"

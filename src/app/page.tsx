@@ -3,6 +3,7 @@ import HomePage from "@/components/HomePage";
 import "../styles/globals.css";
 import SubPage from "@/components/SubPage";
 import Info from "@/components/Info";
+import End from "@/components/End";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HomePage />
       <SubPage />
       <Info />
+      <End />
     </>
   );
 }
