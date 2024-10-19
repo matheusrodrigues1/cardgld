@@ -62,7 +62,7 @@ const SubPage = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black mt-5">
+      <div className="flex flex-col items-center justify-center w-[25rem] h-[37rem] rounded-lg bg-black mt-5 mb-5">
         <Image
           src={Sub04}
           className="h-[12rem] w-[20rem] rounded-lg"
