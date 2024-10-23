@@ -11,7 +11,7 @@ const Info = () => {
       <h1 className="text-center font-extrabold mt-8 text-2xl text-zinc-600 md:text-5xl md:pl-16 md:pr-16 md:leading-relaxed">
         MUITO + RÁPIDO E POTENTE
       </h1>
-      <div className="flex flex-col md:flex-row md:max-w-screen-sm">
+      <div className="flex flex-col md:flex-row md:max-w-screen-sm items-center">
         <div className="flex flex-col items-center">
           <p className="text-center md:text-left font-bold text-xl pr-5 pl-5 mt-8 md:text-2xl">
             É só Receber o seu código de acesso e instalar na tv box, tv smart,

@@ -70,7 +70,7 @@ const End = () => {
         comprados nestes canais.
       </p>
       <br className="" />
-      <p className="font-normal text-center text-sm text-white">
+      <p className="font-normal text-center text-sm text-white md:text-lg lg:text-xl">
         Compra aprovada na mesma hora para pagamento por{" "}
         <span className="font-extrabold">
           PIX <span className="font-medium">ou</span> CARTÃO.
