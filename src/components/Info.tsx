@@ -34,7 +34,7 @@ const Info = () => {
         />
       </div>
       <Link href="/hello">
-        <button className="px-6 py-5 mt-10 border text-white font-bold text-xl border-green-400 bg-green-500 shadow-lg shadow-black rounded-md">
+        <button className="px-6 md:px-28 py-5 mt-10 border text-white font-bold text-xl border-green-400 bg-green-500 shadow-lg shadow-black rounded-md md:hover:scale-105 md:focus:scale-105">
           ADQUIRA O SEU AGORA!
         </button>
       </Link>
@@ -43,16 +43,23 @@ const Info = () => {
         className="w-[22rem] rounded-3xl mt-10"
         alt="img"
       />
-      <span className="text-2xl text-orange-500 text-center font-bold mt-14">
+      <span className="text-2xl text-orange-500 text-center font-bold mt-14 md:text-4xl md:pr-5 md:pl-5">
         ECONOMIZE DINHEIRO COM A GOLDCARD
       </span>
-      <p className="text-center text-zinc-500 font-medium pl-10 pr-10 text-xl mt-14">
-        Com a GoldCard você paga apenas 1 vez e já tem tudo liberado. Você pode
-        economizar <span className="text-orange-500">mais de R$ 4.098,37</span>{" "}
-        por ano comparado a qualquer TV por Assinatura.
-      </p>
+      <div className="flex flex-col md:flex-row md:max-w-screen-sm">
+        <p className="text-center text-zinc-500 font-medium pl-10 pr-10 text-xl mt-14 md:text-left">
+          Com a GoldCard você paga apenas 1 vez e já tem tudo liberado. Você
+          pode economizar{" "}
+          <span className="text-orange-500">mais de R$ 4.098,37</span> por ano
+          comparado a qualquer TV por Assinatura.
+        </p>
 
-      <Image src={Grafico} className="w-[24rem] rounded-3xl mt-10" alt="img" />
+        <Image
+          src={Grafico}
+          className="w-[24rem] rounded-3xl mt-10 md:w-[20rem] md:h-[15rem]"
+          alt="img"
+        />
+      </div>
     </div>
   );
 };
