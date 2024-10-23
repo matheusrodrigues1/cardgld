@@ -20,7 +20,7 @@ const Info = () => {
           <span className="text-zinc-500 font-bold text-xl md:text-left text-center md:text-2xl md:pl-10 md:ml-[-1rem] md:pr-10 mt-10">
             Com o GOLDCARD você vai assistir:
           </span>
-          <div className="flex flex-col text-xl md:text-[1.3rem] md:ml-[1.2rem] items-start md:text-left md:mr-0 mr-28 font-medium text-zinc-900 mt-6">
+          <div className="flex flex-col text-xl md:text-[1.3rem] md:ml-[1.2rem] justify-center md:text-left md:mr-0 font-medium text-zinc-900 mt-6">
             <span>✅ 800 conteúdos abertos.</span>
             <span>✅ 3.000 conteúdos fechados.</span>
             <span>✅ 40.000 séries e filmes.</span>
