@@ -43,11 +43,11 @@ const Info = () => {
         className="w-[22rem] rounded-3xl mt-10"
         alt="img"
       />
-      <span className="text-2xl text-orange-500 text-center font-bold mt-14 md:text-4xl md:pr-5 md:pl-5">
+      <span className="text-2xl text-orange-500 text-center font-bold mt-14 md:text-4xl md:pr-5 md:pl-5 lg:text-5xl lg:pr-10 lg:pl-10">
         ECONOMIZE DINHEIRO COM A GOLDCARD
       </span>
-      <div className="flex flex-col md:flex-row md:max-w-screen-sm">
-        <p className="text-center text-zinc-500 font-medium pl-10 pr-10 text-xl mt-14 md:text-left">
+      <div className="flex flex-col md:flex-row md:max-w-screen-sm lg:max-w-screen-md">
+        <p className="text-center text-zinc-500 font-medium pl-10 pr-10 text-xl mt-14 md:text-left lg:text-2xl">
           Com a GoldCard você paga apenas 1 vez e já tem tudo liberado. Você
           pode economizar{" "}
           <span className="text-orange-500">mais de R$ 4.098,37</span> por ano
@@ -56,7 +56,7 @@ const Info = () => {
 
         <Image
           src={Grafico}
-          className="w-[24rem] rounded-3xl mt-10 md:w-[20rem] md:h-[15rem]"
+          className="w-[24rem] rounded-3xl mt-10 md:w-[20rem] md:h-[15rem] lg:w-[23rem] lg:h-[17rem]"
           alt="img"
         />
       </div>
