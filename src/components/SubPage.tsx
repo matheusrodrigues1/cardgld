@@ -11,7 +11,7 @@ const SubPage = () => {
       <h1 className="font-extrabold text-center text-3xl pr-9 pl-9 text-white mb-20 mt-10">
         A GOLDCARD É PARA VOCE QUE:
       </h1>
-      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] lg:gap-3 rounded-lg bg-black lg:h-[17rem] lg:w-[67rem] lg:flex-row">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] lg:gap-3 rounded-lg bg-black lg:h-[15rem] lg:w-[60rem] lg:flex-row">
         <Image
           src={Sub01}
           className="h-[12rem] w-[20rem] rounded-lg lg:ml-5"
@@ -30,7 +30,7 @@ const SubPage = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 lg:h-[17rem] lg:w-[67rem] lg:flex-row lg:gap-3">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 lg:h-[15rem] lg:w-[60rem] lg:flex-row lg:gap-3">
         <Image
           src={Sub02}
           className="h-[12rem] w-[20rem] rounded-lg lg:ml-5"
@@ -49,7 +49,7 @@ const SubPage = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 lg:h-[17rem] lg:w-[67rem] lg:flex-row lg:gap-3">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 lg:h-[15rem] lg:w-[60rem] lg:flex-row lg:gap-3">
         <Image
           src={Sub03}
           className="h-[12rem] w-[20rem] rounded-lg lg:ml-5"
@@ -68,7 +68,7 @@ const SubPage = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 mb-5 lg:h-[17rem] lg:w-[67rem] lg:flex-row lg:gap-3">
+      <div className="flex flex-col items-center justify-center w-[24rem] h-[37rem] rounded-lg bg-black mt-5 mb-5 lg:h-[15rem] lg:w-[60rem] lg:flex-row lg:gap-3">
         <Image
           src={Sub04}
           className="h-[12rem] w-[20rem] rounded-lg lg:ml-5"
